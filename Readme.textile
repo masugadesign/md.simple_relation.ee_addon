@@ -1,0 +1,11 @@
+h2. Changelog
+
+1.1.3 - Fixed a typo that resulted in errors with LG .htaccess Generator
+
+1.1.2 - Into SVN; select a relation between galleries or weblogs; per-site settings
+
+1.0.2 - Ability to do multiple, different field relations without manual tweaking
+
+1.0.1 - Little internal tweaks
+
+1.0.0 - Initial release.

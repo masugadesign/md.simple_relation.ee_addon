@@ -6,16 +6,9 @@ Creates a "simple" relationship that stores only the related entry_id for weblog
 INFO ---------------------------
 Developed by: Ryan Masuga, masugadesign.com
 Created:   Jul 07 2008
-Last Mod:  Sep 25 2008
+Last Mod:  Jan 23 2009
 
 Related Thread: http://expressionengine.com/forums/viewthread/84495/
-
-CHANGELOG ---------------------------
-1.1.3 - Fixed a typo that resulted in errors with LG .htaccess Generator
-1.1.2 - Into SVN; select a relation between galleries or weblogs; per-site settings
-1.0.2 - Ability to do multiple, different field relations without manual tweaking
-1.0.1 - Little internal tweaks
-1.0.0 - Initial release.
 
 http://expressionengine.com/docs/development/extensions.html
 =============================================================================== */
