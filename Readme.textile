@@ -1,8 +1,25 @@
-h2. Installing and Using MD Simple Relation
+h1. MD Simple Relation
+
+Creates a "simple" relationship field, storing only the entry_id for weblogs or galleries.
+
+h2. Info
+
+Developed by Ryan Masuga, http://masugadesign.com
+
+Docs: "MD Simple Relation":http://www.masugadesign.com/the-lab/scripts/md-simple-relation/ <br />
+EE Extension Info: http://expressionengine.com/docs/development/extensions.html
+
+h2. Installation
 
 # Put lang.md_simple_relation.php in your */system/language/english* folder
 # Put ext.md_simple_relation.php in your */system/extensions* folder.
 # Enable MD Simple Relation in Extensions (Admin > Utilities > Extensions Manager)
+
+h2. Settings
+
+There is only one setting.
+
+*Enable MD Simple Relation for this site?* -- Yes/No (MSM Aware)
 
 h2. Changelog
 

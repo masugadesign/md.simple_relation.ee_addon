@@ -445,5 +445,7 @@ if(preg_match_all("/C=admin&amp;M=blog_admin&amp;P=edit_field&amp;field_id=(\d*)
 		            WHERE class = '".get_class($this)."'");
 	}
 
+/* END class */
 }
-?>
+/* End of file ext.md_simple_relation.php */
+/* Location: ./system/extensions/ext.md_simple_relation.php */ 
