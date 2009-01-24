@@ -2,9 +2,7 @@
 /*
 extension:     ext.md_simple_relation.php
 Created:       Jul 07 2008
-Last Modified: Sep 25 2008
-=================================================
-Version 1.1.3
+Last Modified: Jan 23 2009
 =================================================
 ryan masuga, masugadesign.com
 ryan@masugadesign.com | Copyright 2008
