@@ -222,6 +222,7 @@ class Md_simple_relation
 		
 		$hooks = array(
 		  'show_full_control_panel_end'         => 'show_full_control_panel_end',
+		  //'weblog_standalone_form_end'          => 'weblog_standalone_form_end',
 		  'publish_admin_edit_field_extra_row'  => 'publish_admin_edit_field_extra_row',
 			'publish_form_field_unique'           => 'publish_form_field_unique'
 		);
@@ -248,6 +249,21 @@ class Md_simple_relation
 		}
 		return TRUE;
 	}
+
+
+	/**
+	 * Get Last Call
+	 *
+	 * @param  mixed   $param   Parameter sent by extension hook
+	 * @return mixed            Return value of last extension call if any, or $param
+	 * @since  version 1.1.0
+	 */
+	function get_last_call($param='')
+	{
+		global $EXT;
+		return ($EXT->last_call !== FALSE) ? $EXT->last_call : $param;
+	}
+
 
 
 	// --------------------------------
