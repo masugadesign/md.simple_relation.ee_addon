@@ -6,7 +6,7 @@ Creates a "simple" relationship that stores only the related entry_id for weblog
 INFO ---------------------------
 Developed by: Ryan Masuga, masugadesign.com
 Created:   Jul 07 2008
-Last Mod:  Jan 23 2009
+Last Mod:  May 08 2009
 
 Related Thread: http://expressionengine.com/forums/viewthread/84495/
 
@@ -388,6 +388,7 @@ class Md_simple_relation
       		} 
 				}
 				$r .= $DSP->input_select_footer();
+				$r .= $DSP->input_hidden('field_ft_' . $row['field_id'], $row['field_fmt']);
 		}
 		return $r;
 	}
